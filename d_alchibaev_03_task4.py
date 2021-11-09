@@ -2,14 +2,12 @@
 Определить, какое число в массиве встречается чаще всего.
 """
 from collections import defaultdict
-# from random import randrange
+from random import randrange
 
-# ARRAY_LENGTH = 16
-# LIMIT = 5
-# numbers_list = [randrange(0, LIMIT) for _ in range(ARRAY_LENGTH)]
-# Соблюдаю требование "Не используйте в основном коде (который решает поставленную задачу) константы,
-#                   необходимые для генерации исходных данных."
-numbers_list = [0, 4, 0, 3, 0, 4, 2, 0, 2, 4, 4, 1, 3, 4, 1, 1]
+ARRAY_LENGTH = 16
+LIMIT = 5
+numbers_list = [randrange(0, LIMIT) for _ in range(ARRAY_LENGTH)]
+
 print('Дан массив', numbers_list)
 
 list_instances_count = defaultdict(int)
