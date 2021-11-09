@@ -2,15 +2,13 @@
 В одномерном массиве найти сумму элементов, находящихся между минимальным и максимальным элементами.
 Сами минимальный и максимальный элементы в сумму не включать.
 """
-# from random import randrange
+from random import randrange
 
 
-# ARRAY_LENGTH = 16
-# LIMIT = 100
-# numbers_list = [randrange(0, LIMIT) for _ in range(ARRAY_LENGTH)]
-# Соблюдаю требование "Не используйте в основном коде (который решает поставленную задачу) константы,
-#                   необходимые для генерации исходных данных."
-numbers_list = [89, 9, 67, 26, 27, 6, 66, 35, 30, 22, 65, 59, 94, 65, 72, 92]
+ARRAY_LENGTH = 16
+LIMIT = 100
+numbers_list = [randrange(0, LIMIT) for _ in range(ARRAY_LENGTH)]
+
 print('Дан массив', numbers_list)
 
 
