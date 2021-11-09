@@ -1,15 +1,13 @@
 """
 В массиве найти максимальный отрицательный элемент. Вывести на экран его значение и позицию в массиве.
 """
-# from random import randrange
-#
-#
-# ARRAY_LENGTH = 20
-# LIMIT = 100
-# numbers_list = [randrange(-LIMIT, LIMIT) for _ in range(ARRAY_LENGTH)]
-# Соблюдаю требование "Не используйте в основном коде (который решает поставленную задачу) константы,
-#                   необходимые для генерации исходных данных."
-numbers_list = [73, -31, -100, 76, -47, -25, 48, 32, -75, 94, -66, -100, -14, -76, 75, -99, 68, 69, 92, 21]
+from random import randrange
+
+
+ARRAY_LENGTH = 20
+LIMIT = 100
+numbers_list = [randrange(-LIMIT, LIMIT) for _ in range(ARRAY_LENGTH)]
+
 print('Дан массив', numbers_list)
 
 max_negative_index = -1
