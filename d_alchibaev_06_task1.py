@@ -3,6 +3,7 @@
 """
 # в этот раз подробно погрузиться в задачу получится только в выходные,
 # поэтому пока прикладываю простенькое решение
+# Python 3.8.10 64 bit Linux
 from collections import defaultdict
 from random import randrange
 import sys
